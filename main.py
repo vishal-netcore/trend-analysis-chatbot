@@ -1,4 +1,3 @@
-import os
 from dotenv import load_dotenv
 from groq import Groq
 from phi.agent import Agent
@@ -19,4 +18,4 @@ web_agent = Agent(
 )
 
 if __name__ == "__main__":
-    web_agent.print_response("Give me first 20 characters of logn running queris for campaign_report user")
+    web_agent.print_response("Give me first 20 characters of long running queris for campaign_report user")
