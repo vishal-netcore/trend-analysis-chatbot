@@ -9,6 +9,8 @@ __pycache__/
 *.xlsx
 ignored/
 
+.idea/
+
 # C extensions
 *.so
 
